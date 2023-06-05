@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <title>Sportautos</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap"
+            rel="stylesheet">
+        <script src="../script/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+    </head>
+    <body id=background class="back-b">
+        <div class="container">
+            <header>
+                <h1 id="title">Sportautos</h1>
+            </header>
+            <div id="button-flex">
+              <nav>
+                <ul id="nav-main">
+                    <li class="nav-fix">
+                        <a href="index.html"  class="nav">Home</a>
+                    </li>
+                    <li class="nav-fix">
+                        <a href="ferrari.html"  class="nav-fe">Ferrari</a>
+                    </li>
+                    <li class="nav-fix">
+                        <a href="lamborghini.html"  class="nav-lam">Lamborghini</a>
+                    </li>
+                </ul>
+                <div><p id="output"></p></div>
+              </nav>
+              <div id="btn">
+                <button id="btnWhiteMode" class="btnColor">Whitemode</button>
+                <button id="btnDarkmode" class="btnColor">Darkmode</button>
+              </div>
+            </div>
+
+              <article class="articel-1">
+                  <h2>Geschichte des Automobils</h2>
+               <ul>
+                  <li>Nicholas Cugnot: baute 1769 Dampfwagen (ohne Wind und ohne Muskelkraft fuhr) </li>
+                  <li>Étienne Lenoir: mit Hippomobile 18km lange fahrt </li>
+                  <li>Carl Benz: erstes Auto, das Verbrennungsmotor intern hat</li>
+                  <li>Zugdantrieb oder Motorantrieb: mit Motor schneller und höhere Leistung, hat Automobil durchgesetzt</li>
+                  <li>Namen: autós ("selbst") und mobillis ("beweglich)</li>
+                  <li>Entwicklung zu Sportautos: Hersteller der Autos messten sich gegeseitig, deshalb eigene Autos nur für bessere Leistung</li>
+             </ul>
+             </article> 
+             
+
+            <div class="articel-main"><!--eigentlich <articel> verwendet, aber sonst sourcecode warnung weil kein h2-h6 angewendet wird-->
+            <div>
+              <img src="../img/Ferrari-Logo-188x300.jpg" usemap="#link-to-ferrari" alt="ferrari" id="ferlog"><!--ferrari logo-->
+              <img src="../img/f40-lizenzfrei.jpg" usemap="#link-to-ferrari" alt="ferrari" id="fer"> <!--ferrari bil-->
+              <map name="link-to-ferrari">
+                <area shape="default" href="ferrari.html" alt="link to ferrari">
+              </map>
+
+            </div>
+            <div>
+              <img src="../img/Lamborghini-Logo-1.2.jpg" usemap="#link-to-lam" alt="lamborghini" id="lamlog">
+              <img src="../img/lamborghini-huracan-right.jpg" usemap="#link-to-lam" alt="lamborghini" id="lam">
+              <map name="link-to-lam">
+                <area shape="default" href="lamborghini.html" alt="link to lam">
+              </map>
+            </div> 
+          </div>
+            <footer class="foot">
+               <h4 style="color:white; ">Kontakt</h4>
+                <p  class="foot-select">Gabriel Suntinger</p>
+               <p  class="foot-select">sunting2@edu.htl-villach.at</p>
+            </footer>
+        </div>
+        <form action="https://formsubmit.co/haj85413@nezid.com" method="POST">
+          <input type="text" name="name" required>
+          <input type="email" name="email" required>
+          <button type="submit">Send</button>
+     </form>
+        <script src="../sript/main.js"></script>
+    </body>
+</html>

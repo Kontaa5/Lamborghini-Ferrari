@@ -1,0 +1,438 @@
+/*Allgemein*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-fix{/*damit list-bullets weg sind (wenn es im a-hyperlink drinnen ist funktioniert es nicht*/
+  list-style-type: none;
+}
+.articel-main {
+  display: flex;
+  
+}
+.articel-1 {
+  color: white;
+  /*border: 1px solid black;*/
+  padding-left: 50px;
+  margin-left: 0;
+  font-size: 1vw;
+  padding-top: 28px; /*50 wie unten, aber -22 weil h3 */
+  margin-right: 40%;  /*weil die box von 25-75% geht*/
+}
+.articel-2 {
+  margin-top: 0;
+  /*border: 1px solid black;*/
+  border-top: 1%;
+  margin-left: 50%;
+  font-size: 1vw;
+  margin-bottom: 50px;
+}
+h2{
+font-family: 'Quicksand', sans-serif;
+font-size: 1.25vw;
+}
+.pic-right {
+  border: 1px solid black;
+  float: right;
+  margin-right: 6%;
+  margin-top: 6%;
+  margin-bottom: 1%;
+  width: 19vw;
+  height: auto;
+  border-radius: 0.5vw;
+
+}
+.pic-left{
+  margin-top: 0;
+  float: left;
+  margin-left: 6%;
+  border: 1px solid black;
+  height: auto;
+  width: 18vw;
+  margin-bottom: 2.5%;
+  border-radius: 0.5vw;
+}
+.btnColor{
+  color: black;
+  padding: 0.05vw;
+  font-size: 0.9vw;
+  margin-bottom: 0;
+  border-radius: 0.4vw;
+}
+#button-flex{
+  display: flex;
+  padding-top: 0.5vw;
+  background-color: #c45421;
+}
+#btn{
+  margin-left: 40%;
+}
+
+/*home*/
+.back-b{
+  background-color: black;
+}
+.back-w{
+  background-color: white;
+}
+.container {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(246, 107, 43, 0.852);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1.7vw;
+    border-radius: 1vw;
+    box-shadow: 0 0 2vw rgb(246, 107, 43);
+
+} 
+
+#title {
+  background-color: #9f1017cf ;
+  padding: 0;
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  border-radius: 1vw 1vw 1px 1px;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0.5vw;
+
+}
+#nav-main{
+  display: flex;
+}
+.nav{
+  font-size: 1vw;
+  margin: 0.5vw;
+  margin-left: 2.5vw;
+  padding-left: 0.25vw;
+  padding-right: 0.5vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: grey;
+  border-radius: 0.4vw;
+  border: 1px solid black;
+  list-style-type: none;
+
+}
+
+.nav:hover {
+  text-decoration: underline;
+  background-color: rgb(66, 66, 66);
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+#ferlog{
+  /*border: 1px solid white;*/
+  padding-top: 1.5vw;
+  padding-left: 40%;
+  width: auto;
+  height: 7vw;
+}
+#fer{
+  float: left;
+  margin-top: 1.4vw;
+  margin-left: 2.5vw;
+  border: 1px solid black;
+  height: 13vw;
+  width: auto;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+}
+#lamlog{
+  /*border: 1px solid white;*/
+  width: auto;
+  height: 7vw;
+  padding-top: 1.5vw;
+  padding-left: 40%;
+}
+
+
+#lam{
+  border: 1px solid black;
+  float: right;
+  margin-left: 5.4%;
+  margin-right: 1.5vw;
+  margin-top: 1.4vw;
+  margin-bottom: 2vw;
+  width: auto;
+  height: 13vw;
+  border-radius: 1vw;
+}
+
+.foot{
+  background-color: #9f1017; color: rgba(255, 255, 255, 0.543);
+  border-radius: 0 0 1vw 1vw;
+  padding-bottom: 0.5vw;
+  margin-top: 0.5vw;
+  font-size: 0.75vw;
+  padding-right: 2%;
+  text-align: right;
+}
+.foot-select{
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot-select:hover{
+  color:white;
+text-decoration: underline;
+}
+
+
+
+
+/*Ferrari*/
+.back-fe{
+  /*background-color: #f27e66;*/
+  background-color: black;
+}
+.container-fe {
+    border: 1px solid black;
+    background-color: #CD212A;    
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 35px;
+    border-radius: 1vw;
+    box-shadow: 0 0 40px #CD212A;
+}
+.fer-title {
+  border-radius: 1vw 1vw 1px 1px;
+  color: #000000;
+  background-color: #9f1017;
+  padding: 0;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: 0;
+  font-size: 2vw;
+}
+.nav-fe {
+    display: inline;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.544);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0.5vw;
+    font-size: 1vw;
+    background-color: #a21a21;
+
+    padding-right: 0.5vw;
+    padding-left: 0.25vw;
+    border-radius: 0.4vw;
+    text-decoration: none;
+
+
+}
+.nav-fe:hover {
+    color: rgb(255, 255, 255);
+    
+    background-color: rgb(100, 15, 15);
+    text-decoration: underline;
+}
+.nav-fe-selected{
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 1vw;
+    padding-right: 0.5vw;
+    padding-left: 0.25vw;
+    border-radius: 0.4vw;
+    list-style: none;
+    margin: 0.5vw;
+    background-color: rgb(100, 15, 15);
+    text-decoration: underline;
+}
+.nav-fe-back {
+
+    /*border: 1px solid black;*/
+    background-color: #b31c23;
+    padding: 0.5vw;
+    padding-left: 2.5vw;
+    display: flex;
+}
+.pic-fer{
+  /*border: 1px solid black;*/
+  padding-top: 0.5vw;
+  padding-left: 2.49vw;
+  margin-left: 18vw;
+  width: auto;
+  height: 7vw;
+
+}
+.foot-fe {
+
+  /*background-color: #FFF200;    color: black;*/
+  background-color: #9f1017; color: rgba(255, 255, 255, 0.543);
+  border-radius: 0 0 1vw 1vw;
+  padding-left: 40vw;
+  padding-bottom: 0.5vw;
+  margin-top: 0.5vw;
+  font-size: 0.75vw;
+}
+.foot-fe-select{
+color: rgba(255, 255, 255, 0.6);
+font-size: 0.75vw;
+}
+.foot-fe-select:hover{
+color:white;
+text-decoration: underline;
+}
+#h2-tech-daten{
+ margin-left: 49%;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 1.12vw;
+ margin-top: 0.12vw;
+ padding-left: 0.41vw;
+ border-top: 0;
+ padding-top: 0;
+}
+#pic-left-f40{
+  margin-top: 0;
+  float: left;
+  margin-left: 6%;
+  border: 1px solid black;
+  height: 12vw;
+  width: auto;
+  margin-bottom: 2.5vw;
+  border-radius: 0.5vw;
+}
+
+
+
+
+/*Lamborghini*/
+.container-lam{
+  background-color: #000000;     color:  #F9CE5C;
+  /*background-color: #fff200c3;*/
+  border: 1px solid black;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1.75vw;
+  border-radius: 1vw;
+  box-shadow: 0 0 2vw  #D8A016;
+}
+.lam-title{
+  background-color:  #f9cf5cca;
+  padding-left: 0;
+  padding-bottom: 0.2vw;
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  border-radius: 1vw 1vw 1px 1px;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: 0;
+
+}
+.nav-lam-back{
+    /*border: 1px solid black;*/
+    background-color: #312e28;
+    padding: 0.5vw;
+    display: flex;
+    padding-left: 2.5vw;
+}
+.nav-lam{
+  display: inline;
+  color: #F9CE5C;
+  border: 1px solid #F9CE5C;
+  margin: 0.5vw;
+  font-size: 1vw;
+  background-color: #000000;
+  padding-right: 0.5vw;
+  padding-left: 0.25vw;
+  border-radius: 0.4vw;
+  text-decoration: none;
+}
+.nav-lam-selected{
+  color: #000000;
+  border: 1px solid black;
+  font-size: 0.9vw;
+  padding-right: 0.5vw;
+  padding-left: 0.25vw;
+  border-radius: 0.4vw;
+  list-style: none;
+  margin: 0.5vw;
+  background-color: #F9CE5C;
+  text-decoration: underline;
+}
+.nav-lam:hover{
+  color: rgb(0, 0, 0);
+  background-color: #F9CE5C;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+.articel-1-lam {
+  color: #F9CE5C;
+  /*border: 1px solid black;*/
+  padding-left: 2.5vw;
+  margin-left: 0;
+  font-size: 1vw;
+  padding-top: 1.7vw; /*50 wie unten, aber -22 weil h3 */
+  margin-right: 40%;  /*weil die box von 25-75% geht*/
+}
+#articel-2-main-lam{
+  margin-top: 0.5vw;
+  /*border: 1px solid black;*/
+  border-top: 0.5vw;
+  margin-left: 50%;
+  font-size: 1vw;
+  margin-top: 0.98v;
+  margin-bottom: 2.5vw;
+}
+.lamlogo-main{
+  /*border: 1px solid white;*/
+  width: auto;
+  height: 7vw;
+  padding-top: 2vw;
+  padding-left: 19vw;
+}
+.lamlogo{
+  /*border: 1px solid white;*/
+  width: auto;
+  height: 7vw;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+#pic-farm{
+  margin-top: 0.75vw;
+  float: left;
+  margin-left: 6%;
+  /*border: 1px solid white;*/
+  height: 11vw;
+  width: auto;
+  margin-bottom: 2.5vw;
+  border-radius: 0.5vw;
+}
+.pic-right-lam{
+  border: 1px solid black;
+  float: right;
+  margin-right: 4%;
+  margin-top: 2.5vw;
+  margin-bottom: 0,25vw;
+  width: auto;
+  height: 12vw;
+  border-radius: 0.5vw;
+}
+.pic-left-lam{
+  margin-top: 7vw;
+  float: left;
+  margin-left: 6%;
+  /*border: 1px solid white;*/
+  height: 11vw;
+  width: auto;
+  margin-bottom: 2.5vw;
+  border-radius: 0.5vw;
+}
+.foot-lam{
+      background-color: #f9cf5c79;
+      color: rgba(0, 0, 0, 0.48);
+      border-radius: 0 0 1vw 1vw;
+      padding-left: 41vw;
+      padding-bottom: 0.5vw;
+      margin-top: 0.5vw;
+      font-size: 0.75vw;
+}
+.foot-lam-select{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.75vw;
+}
+.foot-lam-select:hover{
+      color: black;
+      text-decoration: underline;
+}
